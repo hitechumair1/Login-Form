@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <h5>Login Form using Table</h5>
+    <form>
+      <table>
+        <tr>
+          <td>
+            <label for="name">Enter Your Name</label>
+          </td>
+          <td>
+            <input type="text" name="" id="name" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="pass">Enter Password</label>
+          </td>
+          <td>
+            <input type="password" name="" id="pass" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="gender">Your Gender</label>
+          </td>
+          <td>
+            <input type="radio" id="gender" /><span>Male</span>
+            <input type="radio" id="gender" /><span>Female</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="country">Select Country:</label>
+          </td>
+          <td>
+            <select>
+              <option disabled selected>Selet Your Country</option>
+              <option value="PK">Pakistan</option>
+              <option value="IN">India</option>
+              <option value="Uk">UK</option>
+              <option value="USA">USA</option>
+              <option value="China">China</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="submit" value="Login" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <h5>Login Form Using Division Tag</h5>
+
+    <div class="container">
+      <div class="login-form">
+        <form>
+          <div class="name">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+
+          <div class="password">
+            <label for="password">Your Father Name:</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <span id="show" class="show" onclick="show();">Show</span>
+          </div>
+
+          <div class="gender">
+            <label for="gender">Your Gender:</label>
+            <input type="radio" id="gender" name="gender" /><span>Male</span>
+            <input type="radio" id="gender" name="gender" /><span>Female</span>
+          </div>
+
+          <div class="dropdown">
+            <label>Select Your Country:</label>
+            <select required>
+              <option disabled selected>Select Your Country</option>
+              <option>Pakistan</option>
+              <option>India</option>
+              <option>UK</option>
+              <option>China</option>
+              <option>USA</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+    </div>
+
+
+<h5>Login Form Simple</h5>
+<div class="simple">
+  <form>
+    <h1>Login</h1>
+    <label for="username">Username:
+      <input type="text" id="username" placeholder="@Username">
+    </label>
+    <br>
+    <label for="password">Password:
+      <input type="password" id="password" placeholder="Password">
+    </label><br>
+    <label for="remember">
+    <input type="checkbox">Remember Me</label>
+<br>
+    <input type="submit" value="Login">
+  </form>
+</div>
+
+    <script src="login.js"></script>
+  </body>
+</html>

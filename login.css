@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  h5 {
+    font-size: 17px;
+    margin: 20px 0px 10px 25px;
+  }
+  table {
+    margin: 10px 10px 0px 25px;
+    border: 2px solid rgb(45, 7, 180);
+    font-size: 17px;
+    padding: 5px;
+  }
+  select,
+  option,
+  input {
+    font-size: 17px;
+  }
+  label,
+  input,
+  select {
+    margin: 5px;
+  }
+
+  td {
+    border: 1px solid rgb(45, 7, 180);
+  }
+  tr:nth-child(5) td {
+    border: none;
+  }
+  tr:nth-child(5) td input[type="submit"] {
+    background-color: rgb(45, 7, 180);
+    color: white;
+    border: none;
+    font-size: 17px;
+padding: 5px;  
+}
+.container{
+    font-size: 17px;
+border: 1px solid black;
+width: max-content;
+padding: 15px 15px 15px 15px;
+margin:0px 0px 0px 25px ; 
+border-radius: 5px;
+}
+.container input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.container input:valid{
+    border-bottom: 2px solid rgb(2, 2, 54);
+color: rgb(2, 2, 54);
+}
+.show{
+    background-color: rgb(2, 2, 54); 
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container input[type=submit]{
+border: none;
+padding: 5px;
+background-color: rgb(2, 2, 54);
+color: white;
+border-radius: 4px;
+}
+
+
+.simple{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    margin: 5px 0px 30px 25px;
+    font-size: 17px;
+    background-color: whitesmoke;
+    color: black;
+}
+.simple h1{
+    text-align: center;
+margin: 10px 0px 10px 0px;
+}
+.simple label{
+    font-weight: bold;
+}
+.simple input{
+    border: none;
+    outline: none;
+border-bottom: 1px solid
+ gray;
+ padding: 0px 0px 1px 2px;
+ background-color: whitesmoke;
+
+}
+.simple input[type=checkbox]{
+    margin: 5px 5px 0px 78px;
+
+}.simple input[type=submit]{
+background-color: black;
+color: white;
+border: none;
+padding: 4px;
+border-radius: 4px;
+margin: 10px 0px 0px 80px;
+}
